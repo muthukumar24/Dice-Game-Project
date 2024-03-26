@@ -1,0 +1,108 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container
+{
+    margin: 0 5vw;
+}
+
+.row
+{
+    margin: 5vh 0;
+    text-align: center;
+
+    .title
+    {
+        color: rgb(73, 139, 73);
+    }
+
+    .game-panel
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+        
+    .players
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+    }
+    
+    .score
+    {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .roll-btn
+    {
+        background-color: rgb(40, 169, 40);
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+    
+    .roll-btn:hover
+    {
+        background-color: black;
+        color: white;
+    }
+
+    .roll-btn:disabled 
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .dice
+    {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .dice > img 
+    {
+        height: 75%;
+    }
+
+    .result-area
+    {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgb(58, 189, 58);
+    }
+
+    .reset-btn
+    {
+        background-color: red;
+        cursor: pointer;
+        border: none;
+        font-size: 1.1rem;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .reset-btn:hover 
+    {
+        background-color: black;
+        color: white;
+    }
+
+    .reset-btn:disabled
+    {
+        background-color: rgba(255, 0, 0, 0.5);
+    }
+}
+
